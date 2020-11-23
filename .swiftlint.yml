@@ -3,6 +3,9 @@ excluded:
   - Package.swift
   - Consumption-Tests/*/Carthage
   - Consumption-Tests/*/Pods
+  # Bitrise SwiftLint workaround (Bitrise stopped respecting nested .swiftlint.yml files)
+  - Tests
+  - Consumption-Tests
 
 identifier_name:
   excluded:
